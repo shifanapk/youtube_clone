@@ -17,7 +17,7 @@ const Navbar = () => {
                 <img className='logo' src={logo} alt='' />
             </div>
 
-            <div className='nav middle flex-div'>
+            <div className='nav-middle flex-div'>
                 <div className='search-box flex-div'>
                     <input type='text' placeholder='Search' />
                     <img src={search_icon} alt='' />
@@ -28,7 +28,7 @@ const Navbar = () => {
                 <img src={upload_icon} alt="" />
                 <img src={more_icon} alt="" />
                 <img src={notification_icon} alt="" />
-                <img src={profile_icon} className='user_icon' alt="" />
+                <img src={profile_icon} className='user-icon' alt="" />
             </div>
         </nav>
     )
